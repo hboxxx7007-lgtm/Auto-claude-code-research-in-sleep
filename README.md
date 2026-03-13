@@ -40,6 +40,18 @@ claude
 
 See [full setup guide](#%EF%B8%8F-setup) for details and [alternative model combinations](#-alternative-model-combinations) if you don't have Claude/OpenAI API.
 
+## ✨ Features
+
+- 🔄 **Auto review loop** — 4-round autonomous review, 5/10 → 7.5/10 overnight with 20+ GPU experiments
+- 💡 **Idea discovery** — literature survey → brainstorm 8-12 ideas → novelty check → GPU pilot experiments → ranked report
+- 🔍 **Literature & novelty** — multi-source paper search (arXiv, Scholar, Semantic Scholar) + local paper library scan + cross-model novelty verification
+- 🤖 **Cross-model collaboration** — Claude Code executes, GPT-5.4 xhigh reviews. Adversarial, not self-play
+- 📝 **Peer review** — review others' papers as a conference reviewer, with structured scoring and meta-review
+- 🖥️ **GPU deployment** — auto rsync, screen sessions, multi-GPU parallel experiments, live monitoring
+- 🔀 **Flexible models** — default Claude × GPT-5.4, also supports [GLM + GPT, GLM + MiniMax](#-alternative-model-combinations) — no Claude API required
+- 🛑 **Human-in-the-loop** — configurable checkpoints at key decisions. `AUTO_PROCEED=true` for full autopilot, `false` to approve each step
+- 📊 **11 composable skills** — mix and match, or chain into full pipelines (`/idea-discovery`, `/auto-review-loop`, `/research-pipeline`)
+
 ---
 
 ## 📈 Score Progression (Real Run)
